@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-verde-agua: #49BBBD;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #FFFFFF;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: var(--cor-verde-agua);
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.header__nav__img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__nav__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--fonte-titulo-link);
+    gap: 80px;
+}
+
+.header__nav__links__link {
+    text-decoration: none;
+    font-family: var(--fonte-titulo-link);
+    font-size: 1.1em;
+    color: var(--cor-fundo-branco);
+}
+
+.header__nav__links__botao {
+    display: flex;
+    gap: 15px;
+}
+
+.header__nav__login {
+    text-decoration: none;
+    font-family: var(--fonte-titulo-link);
+    background-color: var(--cor-fundo-branco);
+    color: var(--cor-texto);
+    font-size: 1.2em;
+
+    border-radius: 20px;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    padding: 3%;
+    font-weight: 500;
+}
+
+.header__nav__cadastro {
+    text-decoration: none;
+    font-family: var(--fonte-titulo-link);
+    background-color: rgba(255, 255, 255, 0.466);
+    color: var(--cor-fundo-branco);
+    font-size: 1.2em;
+
+    border-radius: 20px;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    padding: 3%;
+    font-weight: 500;
+}
