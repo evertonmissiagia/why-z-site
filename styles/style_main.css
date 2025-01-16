@@ -53,10 +53,25 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5%;
+    gap: 2%;
 }
 
 .main__banner__info__botao__1 {
+    text-decoration: none;
+    font-family: var(--fonte-titulo-link);
+    background-color: var(--cor-fundo-branco);
+    color: var(--cor-texto);
+    font-size: 0.9em;
+
+    border-radius: 15px;
+    width: 320px;
+    height: 60px;
+    text-align: center;
+    font-weight: 500;
+    align-content: center;
+}
+
+.main__banner__info__botao__2 {
     text-decoration: none;
     font-family: var(--fonte-titulo-link);
     background-color: var(--cor-fundo-branco);
@@ -69,11 +84,10 @@ body {
     text-align: center;
     font-weight: 500;
     align-content: center;
-}
-
-.main__banner__info__botao__1:hover {
-    background-color: var(--cor-fundo-branco);
-    color: var(--cor-texto);
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/why-z-site/b96cd78aed3ddf416206e57681b96410884c5d69/assets/img/img_icon_play.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    padding-left: 3%;
 }
 
 .main__banner__img {
