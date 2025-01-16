@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
 }
 
@@ -40,7 +40,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
     padding-right: 20%;
 }
 
@@ -49,7 +48,7 @@ body {
     flex-direction: row;
     align-items: center;
     font-family: var(--fonte-titulo-link);
-    gap: 80px;
+    gap: 50px;
 }
 
 .header__nav__links__link {
@@ -61,7 +60,7 @@ body {
 
 .header__nav__links__botao {
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 .header__nav__login {

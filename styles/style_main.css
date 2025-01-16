@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 1.5%;
-    gap: 6%;
+    gap: 3%;
 }
 
 .main__banner__info {
@@ -41,7 +41,8 @@ body {
     color: var(--cor-fundo-branco);
     font-size: 24px;
     padding-bottom: 5%;
-    padding-left: 8%;
+    padding-left: 5%;
+    line-height: 1.6;
 }
 
 .main__banner__info__titulo {
@@ -62,6 +63,7 @@ body {
     background-color: var(--cor-fundo-branco);
     color: var(--cor-texto);
     font-size: 0.9em;
+    border: 0;
 
     border-radius: 15px;
     width: 320px;
@@ -77,21 +79,19 @@ body {
     background-color: var(--cor-fundo-branco);
     color: var(--cor-texto);
     font-size: 0.9em;
-
+    border: 0;
     border-radius: 15px;
     width: 350px;
     height: 60px;
     text-align: center;
     font-weight: 500;
     align-content: center;
-    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/why-z-site/b96cd78aed3ddf416206e57681b96410884c5d69/assets/img/img_icon_play.svg");
-    background-repeat: no-repeat;
-    background-position: 1em;
-    padding-left: 3%;
 }
 
 .main__banner__img {
     display: flex;
-    align-items: flex-end;
-    padding-right: 13%;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding-right: 3%;
 }
