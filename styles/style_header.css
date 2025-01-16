@@ -40,6 +40,8 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    padding-right: 20%;
 }
 
 .header__nav__links {
@@ -69,13 +71,19 @@ body {
     color: var(--cor-texto);
     font-size: 1.2em;
 
-    border-radius: 20px;
+    border-radius: 30px;
     width: 120px;
     height: 45px;
     text-align: center;
     padding: 3%;
     font-weight: 500;
 }
+
+.header__nav__login:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    color: var(--cor-fundo-branco);
+}
+
 
 .header__nav__cadastro {
     text-decoration: none;
@@ -84,10 +92,15 @@ body {
     color: var(--cor-fundo-branco);
     font-size: 1.2em;
 
-    border-radius: 20px;
+    border-radius: 30px;
     width: 120px;
     height: 45px;
     text-align: center;
     padding: 3%;
     font-weight: 500;
+}
+
+.header__nav__cadastro:hover {
+    background-color: var(--cor-fundo-branco);
+    color: var(--cor-texto);
 }
