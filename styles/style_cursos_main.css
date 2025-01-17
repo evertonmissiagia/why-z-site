@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-verde-agua: blue;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #ffffff;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.cursos__main {
+    display: flex;
+    background-color: var(--cor-fundo-branco);
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    gap: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+}
+
+.cursos__main__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1.7em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.cursos__main__titulo {
+    font-family: var(--fonte-titulo-link);
+    font-size: 1.5em;
+    color: rgb(1, 1, 77);
+    padding-bottom: 1.5%;
+}
+
+.cursos__main__texto {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.cursos__main__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cursos__main__blocks__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 0;
+    border-radius: 25px;
+    width: 400px;
+    height: 480px;
+}
+
+.cursos__main__blocks__block__titulo {
+    font-family: var(--fonte-titulo-link);
+    font-size: 1.7em;
+}
+
+.cursos__main__blocks__block__texto {
+    font-family: var(--fonte-texto);
+    font-size: 1.2em;
+}
+
+.cursos__main__test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.cursos__main__test__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.cursos__main__test__img {
+    padding-right: 3%;
+}
+
+.cursos__main__test__info__titulo {
+    font-family: var(--fonte-titulo-link);
+    color: rgb(1, 1, 77);;
+    font-size: 2.6em;
+}
+
+.cursos__main__test__info__texto {
+    font-family: var(--fonte-texto);
+    font-size: 1.6em;
+    line-height: 2;
+}
+
+.cursos__main__teste__info__botao {
+    text-decoration: none;
+    font-family: var(--fonte-titulo-link);
+    background-color: blue;
+    color: var(--cor-fundo-branco);
+    font-size: 1.4em;
+    border: 0;
+
+    border-radius: 15px;
+    width: 320px;
+    height: 60px;
+    text-align: center;
+    font-weight: 600;
+    align-content: center;
+}

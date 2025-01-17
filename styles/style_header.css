@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom: 1%;
 }
 
@@ -60,7 +60,7 @@ body {
 
 .header__nav__links__botao {
     display: flex;
-    gap: 25px;
+    gap: 10px;
 }
 
 .header__nav__login {
