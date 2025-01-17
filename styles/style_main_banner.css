@@ -73,6 +73,11 @@ body {
     align-content: center;
 }
 
+.main__banner__info__botao__1:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    color: var(--cor-fundo-branco);
+}
+
 .main__banner__info__botao__2 {
     text-decoration: none;
     font-family: var(--fonte-titulo-link);
@@ -86,6 +91,11 @@ body {
     text-align: center;
     font-weight: 500;
     align-content: center;
+}
+
+.main__banner__info__botao__2:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    color: var(--cor-fundo-branco);
 }
 
 .main__banner__img {

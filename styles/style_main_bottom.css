@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-verde-agua: blue;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #ffffff;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main__section__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252641;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    color: white;
+    gap: 6%;
+}
+
+.main__section__bottom__info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 1.2em;
+}
+
+.main__section_bottom__whatever {
+    padding-bottom: 5%;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+}
+
+.main__section__bottom__cadastro {
+    display: flex;
+    gap: 10px;
+}
+
+.main__section__cadastro__email {
+    width: 350px;
+    height: 49px;
+    border-radius: 6px;
+    border: 0;
+    background-color: var(--cor-fundo-branco);
+    color: black;
+    font-size: 1em;
+    font-family: var(--fonte-texto);
+    padding-left: 2%;
+}
+
+.main__section__cadastro__botao {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    border: 0;
+    height: 50px;
+    font-size: 0.9em;
+    width: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252641;
+    color: white;
+    font-family: var(--fonte-texto);
+    font-size: 1.2em;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
