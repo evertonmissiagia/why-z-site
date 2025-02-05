@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --cor-verde-agua: blue;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #ffffff;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main__teste__proficiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;;
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 1.3em;
+    gap: 1em;
+}
+
+.main__teste__proficiencia__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
+    padding-bottom: 1em;
+
+}
+
+.main__teste__proficiencia__titulo {
+font-family: var(--fonte-titulo-link);
+font-size: 2em;
+color: rgb(1, 1, 77);
+}
+
+.main__teste__proficiencia__form {
+    width: 25em;
+    height: 2.2em;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.main__teste__proficiencia__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px solid black;
+    width: 40em;
+}
+
+.main__teste__proficiencia__info__outro {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6em;
+}
+
+.main__teste__proficiencia__info__outro__form {
+    width: 40em;
+    height: 2.2em;
+    font-size: 0.8em;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.main__teste__proficiencia__answer {
+    padding-left: 1%;
+    border-radius: 6px;
+    width: 40em;
+    height: 15em;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.main__teste__proficiencia__botao {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte-titulo-link);
+    border: 0;
+    height: 50px;
+    width: 18%;
+    font-size: 1.3em;
+}
+
+.main__teste__proficiencia__perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    line-height: 1.7em;
+}
+
+.main__teste__proficiencia__pergunta__22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-texto);
+    gap: 1.2em;
+    line-height: 1.7em;
+    padding-bottom: 1.6em;
+}
