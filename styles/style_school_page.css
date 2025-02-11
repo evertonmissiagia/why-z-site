@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --cor-verde-agua: blue;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #ffffff;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main__school__info1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.main__school__info2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 8%;
+}
+
+.main__school__info3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.main__school__info1__texto {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-texto);
+    text-align: center;
+    padding-left: 3%;
+    gap: 15px;
+}
+
+.main__school__info1__texto__text {
+    font-size: 1.6em;
+    line-height: 40px;
+}
+
+.main__school__info1__texto__titulo {
+    font-family: var(--fonte-titulo-link);
+    font-size: 2.3em;
+    color: rgb(1, 1, 77);
+}
+
+.main__school__map {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+iframe {
+    width: 90%
+}

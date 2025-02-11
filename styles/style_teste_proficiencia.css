@@ -45,17 +45,23 @@ font-size: 2em;
 color: rgb(1, 1, 77);
 }
 
+.main__teste__proficiencia__info__titulo {
+    font-family: var(--fonte-titulo-link);
+    color: rgb(1, 1, 77);}
+
 .main__teste__proficiencia__form {
     width: 25em;
     height: 2.2em;
     border-radius: 6px;
     text-align: center;
     font-size: 0.8em;
+    font-family: var(--fonte-texto);
 }
 
 .main__teste__proficiencia__info {
     display: flex;
     flex-direction: column;
+    font-family: var(--fonte-texto);
     align-items: center;
     gap: 1em;
     padding-top: 3%;
@@ -84,6 +90,7 @@ color: rgb(1, 1, 77);
     width: 40em;
     height: 15em;
     text-align: center;
+    font-family: var(--fonte-texto);
     font-size: 1.1em;
 }
 
@@ -94,7 +101,7 @@ color: rgb(1, 1, 77);
     font-family: var(--fonte-titulo-link);
     border: 0;
     height: 50px;
-    width: 18%;
+    width: 15%;
     font-size: 1.3em;
 }
 
@@ -102,8 +109,8 @@ color: rgb(1, 1, 77);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5em;
-    line-height: 1.7em;
+    gap: 1.0em;
+    line-height: 2em;
 }
 
 .main__teste__proficiencia__pergunta__22 {
@@ -112,6 +119,11 @@ color: rgb(1, 1, 77);
     align-items: center;
     font-family: var(--fonte-texto);
     gap: 1.2em;
-    line-height: 1.7em;
+    line-height: 2em;
     padding-bottom: 1.6em;
+}
+
+.main__teste__proficiencia__alternativas {
+    display: flex;
+    flex-direction: column;
 }

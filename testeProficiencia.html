@@ -25,8 +25,8 @@
                 
                 <a class="header__nav__links__link" href="index.html">Home</a>
                 <a class="header__nav__links__link" href="cursos.html">Cursos</a>
-                <a class="header__nav__links__link" href="">Nossa Escola</a>
-                <a class="header__nav__links__link" href="">Nossa Equipe</a>
+                <a class="header__nav__links__link" href="school.html">Nossa Escola</a>
+                <a class="header__nav__links__link" href="equipe.html">Nossa Equipe</a>
 
                 <div class="header__nav__links__botao">
                     <a class="header__nav__login" href="">Login</a>
@@ -44,20 +44,20 @@
             </div>
 
             <div class="main__teste__proficiencia__info">
-                <p><strong>Nome</strong></p>
-                <form><input type="text" class="main__teste__proficiencia__form"></form>
-                <p><strong>Email</strong></p>
-                <form ><input type="text" class="main__teste__proficiencia__form"></form>
-                <p><strong>Celular / WhatsApp</strong></p>
-                <form ><input type="text" class="main__teste__proficiencia__form" placeholder="(00) 00000-0000"></form>
-                <p><strong>Preferência de Contato</strong></p>
+                <p class="main__teste__proficiencia__info__titulo"><strong>Nome</strong></p>
+                <form><input type="text" class="main__teste__proficiencia__form" id="form-name-user"></form>
+                <p class="main__teste__proficiencia__info__titulo"><strong>Email</strong></p>
+                <form ><input type="text" class="main__teste__proficiencia__form" id="form-email-user"></form>
+                <p class="main__teste__proficiencia__info__titulo"><strong>Celular / WhatsApp</strong></p>
+                <form ><input type="text" class="main__teste__proficiencia__form" id="form-whatsapp-user" placeholder="(00) 00000-0000"></form>
+                <p class="main__teste__proficiencia__info__titulo"><strong>Preferência de Contato</strong></p>
                 <p><input type="checkbox"> E-mail</p>
                 <p><input type="checkbox"> Ligação</p>
                 <p><input type="checkbox"> WhatsApp</p>
-                <p><strong>Tenho interesse em aprender inglês:</strong></p>
+                <p class="main__teste__proficiencia__info__titulo"><strong>Tenho interesse em aprender inglês:</strong></p>
                 <p><input type="checkbox"> Por motivos de trabalho</p>
                 <p><input type="checkbox"> Para viajar</p>
-                <p><input type="checkbox"> Por motivos acadêmicos / Teste de proficiência</p>
+                <p><input type="checkbox"> Para mestrado / doutorado / exame de proficiência</p>
                 <p><input type="checkbox"> Por hobby / interesse próprio</p>
                 <div class="main__teste__proficiencia__info__outro">
                     <p>Outro: </p>
@@ -67,43 +67,463 @@
 
             <div class="main__teste__proficiencia__perguntas">
                 <p><strong>1. Choose the correct sentence:</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I am going to the store tomorrow.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I going to the store tomorrow.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I am go to the store tomorrow.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I will goes to the store tomorrow.
+                    </label>
+                </form>
+
                 <p><strong>2. What time is it? (3:15)</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It is three and sixteen.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It is a quarter past three.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It is three past fifteen.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It is a quarter to three.
+                    </label>
+                </form>
+
                 <p><strong>3. Where do you _____ from?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        are
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        come
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        comes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        coming                   
+                    </label>
+                </form>
+
                 <p><strong>4. Which word is a noun?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        quickly
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        house
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        running
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        make                   
+                    </label>
+                </form>
+
                 <p><strong>5. I like playing _____ football on weekends</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        an
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        the
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        a
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Ø (nothing)                   
+                    </label>
+                </form>
+
                 <p><strong>6. If I ______ more time, I would travel more often.</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        had
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        have
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        would have
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        will have
+                    </label>
+                </form>
+
                 <p><strong>7. She _____ the letter by the time I arrived.</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        has written
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        wrote
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        had written
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        was writing
+                    </label>
+                </form>
+
                 <p><strong>8. They have lived here _____ 5 years.</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        since
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        in
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        for
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        by
+                    </label>
+                </form>
+
                 <p><strong>9. Which sentence uses the passive voice?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The company hired new employees.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        New employees were hired by the company.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The company is hiring new employees.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        They are hiring new employees.
+                    </label>
+                </form>
+
                 <p><strong>10. He managed to pass the exam, _____ he didn't study much</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        because
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        even though
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        so
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        how
+                    </label>
+                </form>
+
                 <p><strong>11. The museum _____ by the time we got there.</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        closing
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        had closed
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        is closed
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        will close
+                    </label>
+                </form>
+
                 <p><strong>12. I am interested _____ learning new languages</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        in
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        for
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        on
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        at
+                    </label>
+                </form>
+
                 <p><strong>13. What does the word "ubiquitous" most likely mean?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        rare
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        common
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        unknown
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        powerful
+                    </label>
+                </form>
+
                 <p><strong>14. Choose the correct sentence:</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Hardly had we left when it started raining.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Hardly we had left when it started raining.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        We had hardly left when it started raining.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        We hardly had left when it started raining.
+                    </label>
+                </form>
+
                 <p><strong>15. If it weren't for your help, I _____ in trouble.</strong></p>
-                <p><strong></strong>16. _____ I known about the meeting, I would have attended</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        will be
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        was
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        am
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        would have been
+                    </label>
+                </form>
+
+                <p><strong>16. _____ I known about the meeting, I would have attended</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Had
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        If
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Unless
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Should
+                    </label>
+                </form>
+
                 <p><strong>17. Which sentence uses inversion correctly?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Only after he apologized, did she forgive him.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        She forgave him only after he apologized.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        He apologized, and only after did she forgive him.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        Did she forgive him only after he apologized.
+                    </label>
+                </form>
+
                 <p><strong>18. Which sentence is correct?</strong></p>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I suggest that she goes to the doctor.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I suggest that she go to the doctor.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I suggest she goes to the doctor.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        I suggest to go to the doctor.
+                    </label>
+                </form>
+
                 <p><strong>19. Read the text and answer the question</strong> <br>
                     Tom is a teacher. He works in a small school. Every day, Tom helps his students learn new things. On Mondays, he teaches math. On Tuesdays, he teaches English. Tom likes his job because he enjoys helping people. After school, Tom goes to the park to relax <br>
-                    <strong>What does Tom do after school?</strong>
-                </p>
+                    <center><strong>What does Tom do after school?</strong></p></center>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        He goes to the gym.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        He visits his friends.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        He goes to the park.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        He reads books.
+                    </label>
+                </form>
+
+
                 <p><strong>20. Read the text and answer the question.</strong> <br>
                 
-                    In today’s fast-paced world, effective communication is more important than ever. Whether in a professional setting or casual conversation, the ability to express oneself clearly can greatly impact success. Many people strive to improve their communication skills to better interact with colleagues, friends, and clients. This often involves practicing active listening, refining vocabulary, and understanding non-verbal cues. By honing these skills, individuals can ensure that their messages are conveyed accurately and effectively. <br>
-                    Furthermore, improving communication can lead to more productive and harmonious relationships. When people communicate well, they are more likely to collaborate successfully and resolve conflicts more easily. Effective communication also helps in understanding different perspectives and finding common ground. This can enhance teamwork and foster a positive environment, whether in the workplace or in personal life. <br>
-                    <strong>What is one benefit of improving communication skills mentioned in the text?</strong>
-                </p>
+                    In today’s fast-paced world, effective communication is more important than ever. Whether in a professional setting or casual conversation, the ability to express oneself clearly can greatly impact success. Many people strive to improve their communication skills to better interact with colleagues, friends, and clients. This often involves practicing active listening, refining vocabulary, and understanding non-verbal cues. By honing these skills, individuals can ensure that their messages are conveyed accurately and effectively.
+                    Furthermore, improving communication can lead to more productive and harmonious relationships. When people communicate well, they are more likely to collaborate successfully and resolve conflicts more easily. Effective communication also helps in understanding different perspectives and finding common ground. This can enhance teamwork and foster a positive environment, whether in the workplace or in personal life.
+
+                    <center><strong>What is one benefit of improving communication skills mentioned in the text?</strong></p></center>
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It helps you become a better listener.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It ensures you are always right.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It allows you to avoid all conflicts.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        It guarantees success in every situation.
+                    </label>
+                </form>
+
                 <p><strong>21. Read the text and answer the question.</strong> <br>
-                    In the contemporary landscape of global communication, the advent of digital technologies has revolutionized the way individuals interact. The proliferation of social media platforms has engendered a paradigm shift, whereby traditional modes of discourse are increasingly supplanted by virtual engagements. This transition has not only transformed interpersonal relationships but has also engendered new avenues for both professional and personal growth. <br>
+                    In the contemporary landscape of global communication, the advent of digital technologies has revolutionized the way individuals interact. The proliferation of social media platforms has engendered a paradigm shift, whereby traditional modes of discourse are increasingly supplanted by virtual engagements. This transition has not only transformed interpersonal relationships but has also engendered new avenues for both professional and personal growth.
                 
-                    The omnipresence of digital media has precipitated an era where information dissemination occurs at an unprecedented velocity. Consequently, the ability to discern credible sources from dubious ones has become a crucial skill in navigating the digital sphere. This challenge underscores the necessity for media literacy and critical thinking, as individuals are often lost in a plethora of content, not all of which is accurate or reliable. <br>
+                    The omnipresence of digital media has precipitated an era where information dissemination occurs at an unprecedented velocity. Consequently, the ability to discern credible sources from dubious ones has become a crucial skill in navigating the digital sphere. This challenge underscores the necessity for media literacy and critical thinking, as individuals are often lost in a plethora of content, not all of which is accurate or reliable. <br><br>
                 
-                    Moreover, the integration of artificial intelligence into digital platforms has further complicated the media landscape. Algorithms designed to tailor content to individual preferences can inadvertently create echo chambers, wherein users are predominantly exposed to information that reinforces their preexisting beliefs. This phenomenon raises concerns about the potential ramifications for public discourse and societal cohesion. <br>
+                    Moreover, the integration of artificial intelligence into digital platforms has further complicated the media landscape. Algorithms designed to tailor content to individual preferences can inadvertently create echo chambers, wherein users are predominantly exposed to information that reinforces their preexisting beliefs. This phenomenon raises concerns about the potential ramifications for public discourse and societal cohesion.
                 
                     In light of these developments, it is imperative for individuals to cultivate a nuanced understanding of digital media. By developing critical analytical skills and remaining vigilant about the sources of information they consume, people can better navigate the complexities of the modern information age and contribute to a more informed and engaged society. <br>
                 
-                    <strong>What is one of the key challenges mentioned in the text regarding the omnipresence of digital media?</strong></p>
+                    <center><strong>What is one of the key challenges mentioned in the text regarding the omnipresence of digital media?</strong></p></center>
+                
+                <form class="main__teste__proficiencia__alternativas">
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The acceleration of technological advancements.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The need for media literacy and critical thinking.
+                    </label>
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The enhancement of face-to-face communication skills.
+                    </label>
+
+                    <label>
+                        <input type="radio" name="htmlElement" value="group">
+                        The reduction in the variety of available content.
+                    </label>
+                </form>
             </div>
 
             <div class="main__teste__proficiencia__pergunta__22">
@@ -111,11 +531,8 @@
                     What is the impact of digital technologies on interpersonal communication and information dissemination? Consider both the benefits and drawbacks of this digital transformation, and explore the role of media literacy in addressing the challenges presented by the proliferation of digital media. How can individuals effectively navigate the complexities of the modern information age to ensure a balanced and informed perspective? </p>
 
                 <form><input type="text" class="main__teste__proficiencia__answer" placeholder="Digite sua resposta"></form>
-
-                <button class="main__teste__proficiencia__botao">Enviar</button>
+                <button class="main__teste__proficiencia__botao" id="submit-button">Enviar</button>
             </div>  
-            
-
         </section>
 
         <section class="main__section__bottom">
@@ -127,7 +544,7 @@
                 <ul class="main__section__bottom__info__list" style="list-style: none;">
                     <li>Trabalhe Conosco</li>
                     <li>Reembolso e Cancelamentos</li>
-                    <li><a href="testeProficiencia.html">Teste de Proficiência</a></li>
+                    <li><a href="testeProficiencia.html" class="main__section__bottom__info__list__link">Teste de Proficiência</a></li>
                 </ul>
             </div>
 
@@ -140,8 +557,9 @@
             </div>
         </section>
     </main>
+    <script defer src="scipts\app.js"></script>
     <footer class="footer">
-        <p>WhyZ Catanduva © 2025. Todos os direitos reservados.</p>
+        <p>WhyZ Idiomas © 2025. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
