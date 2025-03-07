@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/style_header.css">
+    <link rel="stylesheet" href="styles/style_main_banner.css">
+    <link rel="stylesheet" href="styles/style_main_content.css">
+    <link rel="stylesheet" href="styles/style_main_bottom.css">
+    <link rel="stylesheet" href="styles/style_teste_proficiencia.css">
+    <link rel="stylesheet" href="styles/style_signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__nav__img">
+                <a href="index.html"><img src="assets\img\img_logo.png" alt="Logo da escola" width="150" height="150"></a>
+            </div>
+
+            <div class="header__nav__links">
+                <a href=""><img src="assets\img\img_logo_whatsapp.png" alt=""></a>
+                <a href="https://www.instagram.com/whyzcatanduva/"><img src="assets\img\img_logo_instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/whyzcatanduva"><img src="assets\img\img_logo_facebook.png" alt=""></a>
+                
+                <a class="header__nav__links__link" href="index.html">Home</a>
+                <a class="header__nav__links__link" href="cursos.html">Cursos</a>
+                <a class="header__nav__links__link" href="school.html">Nossa Escola</a>
+                <a class="header__nav__links__link" href="equipe.html">Nossa Equipe</a>
+
+                <div class="header__nav__links__botao">
+                    <a class="header__nav__login" href="">Login</a>
+                    <a class="header__nav__cadastro" href="sign-up.html">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main__signup"> 
+        <section class="main__signup__intro">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla molestiae ut! Maiores</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+        <section class="main__section__register">
+            <img src="assets\img\img_student_boy_placeholder.png" alt="Student placeholder image" class="main__section__register__img" width="200" height="200">
+            <button class="main__section__register__buttons" id="botao-enviar-foto">Enviar foto</button>
+            <input type="file" id="enviar-foto-input" accept="image/jpeg, image/png" style="display: none;">
+        
+            <form class="main__section__register__form">
+                <label class="main__section__register__labels" for="nome-completo">Nome Completo</label>
+                <input class="main__section__register__inputs" type="text" id="nome-completo" placeholder="Nome Completo" required>
+        
+                <label class="main__section__register__labels" for="data-nascimento">Data de Nascimento</label>
+                <input class="main__section__register__inputs" type="date" id="data-nascimento" placeholder="Data de Nascimento" required>
+        
+                <label class="main__section__register__labels" for="cpf">CPF</label>
+                <input class="main__section__register__inputs" type="text" id="cpf" placeholder="CPF" required>
+        
+                <label class="main__section__register__labels" for="endereco">Endereço</label>
+                <input class="main__section__register__inputs" type="text" id="endereco" placeholder="Endereço" required>
+        
+                <label class="main__section__register__labels" for="celular">Celular / WhatsApp</label>
+                <input class="main__section__register__inputs" type="text" id="celular" placeholder="Celular / WhatsApp" required>
+        
+                <label class="main__section__register__labels" for="email">E-mail</label>
+                <input class="main__section__register__inputs" type="email" id="email" placeholder="E-mail" required>
+
+                <div class="main__section__register__form__termos">
+                    <input class="main__section__register__inputs__checkbox" type="checkbox" id="termos" required>
+                    <label class="main__section__register__labels" for="termos">Eu li e aceito os termos e condições</label>
+                </div>
+        
+                <button class="main__section__register__buttons" type="submit">Finalizar Cadastro</button>
+            </form>
+        </section>
+
+        <section class="main__section__bottom">
+            <div>
+                <img src="assets\img\img_logo.png" alt="" width="200" height="200">
+            </div>
+    
+            <div class="main__section__bottom__info">
+                <ul class="main__section__bottom__info__list" style="list-style: none;">
+                    <li>Trabalhe Conosco</li>
+                    <li>Reembolso e Cancelamentos</li>
+                    <li><a href="testeProficiencia.html" class="main__section__bottom__info__list__link">Teste de Proficiência</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p class="main__section_bottom__whatever">Se inscreva na nossa newsletter!</p>
+                <div class="main__section__bottom__cadastro">
+                    <input type="type" class="main__section__cadastro__email" placeholder="Digite seu email">
+                    <button class="main__section__cadastro__botao">Cadastrar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script defer src="scripts\register.js"></script>
+    <footer class="footer">
+        <p>WhyZ Idiomas © 2025. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

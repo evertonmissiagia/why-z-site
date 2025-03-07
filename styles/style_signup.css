@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --cor-verde-agua: blue;
+    --cor-azul-escuro: #5B72EE;
+    --cor-azul-claro: #29B9E6;
+    --cor-texto: #696984;
+    --cor-fundo-branco: #ffffff;
+    --fonte-titulo-link: "Poppins", serif;
+    --fonte-texto: "Nunito Sans", serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main__signup__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 2%;
+}
+
+.main__section__register {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 2%;
+}
+
+.main__section__register__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__section__register__img {
+    border: 3px solid black;
+}
+
+.main__section__register__labels {
+    font-family: var(--fonte-titulo-link);
+    font-size: 1.3em;
+    color: rgb(1, 1, 77);
+}
+
+.main__section__register__buttons {
+    width: 150px;
+    height: 35px;
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    background-color: blue;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.main__section__register__buttons:hover {
+    background-color: var(--cor-texto);
+}
+
+.main__section__register__inputs {
+    width: 300px;
+    height: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo-link);
+    font-size: 2em;
+    color: rgb(1, 1, 77);
+}
+
+p {
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    color: var(--cor-texto);
+}
+
+.main__section__register__form__termos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main__section__register__inputs__checkbox {
+    width: 20px;
+    height: 20px;
+}
