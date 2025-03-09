@@ -22,4 +22,3 @@ document.getElementById('enviar-foto-input').addEventListener('change', (event) 
 });
 
 
-
